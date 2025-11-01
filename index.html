@@ -1,12 +1,13 @@
 <!DOCTYPE HTML>
-
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewwport" content="width=device-width", initial-scale="1">
+    <meta name="vie wport" content="width=device-width" , initial-scale="1">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <title> Joyce's Profile </title>
+    <title>Joyce's Profile</title>
+    <link rel="icon" type="image/png" href="assets/images/annedev.png"> 
 </head>
 
 <body>
@@ -18,95 +19,246 @@
                 <li class="navitem"> <a href="#about"> About </a> </li>
                 <li class="navitem"> <a href="#projects"> Projects </a> </li>
                 <li class="navitem"> <a href="#contacts"> Contact </a> </li>
-                <li class="divider"></li>
-                <li class="navitem-social"> <a href="https://github.com/joysicutes"> <i class="fa fa-github"> </i> </a> </li>
             </ul>
-        </div>  
+        </div>
     </nav>
 
     <div class="frontview">
-        <img src="assets/images/pdp.png"> 
-        <h2> Hi I'm <span class="anne">Anne </span> </h2>
-        <h5>Aspiring UI/UX Designer</h5>
-        <p> I'm an aspiring UI/UX designer focused on creating user-friendly and visually engaging digital experiences. </p>
-        <div class = "buttons">
-            <button class="connect"> <a href="#contacts">Let's Connect </a> </button>
-            <button class="project"><a href="#projects"> View Works</a> </button>
-        </div> 
+        <div class="image-container">
+            <img src="assets/images/pdp.png" alt="Anne">
+        </div>
+        <div class="details">
+            <h2>Hi I'm <span class="typewriter"></span></h2>
+            <h5>Aspiring UI/UX Designer</h5>
+            <p>I'm an aspiring UI/UX designer focused on creating user-friendly and visually engaging digital
+                experiences.</p>
+            <div class="buttons">
+                <button class="connect"><a href="#contacts">Let's Connect</a></button>
+                <button class="project"><a href="#projects">View Works</a></button>
+            </div>
+        </div>
     </div>
 
-    <div class="about" id="about">
-        <div class="about-divider"></div>
-        <h1> About <span class="anne">Anne </span> </h1>
+    <div class="about reveal" id="about">
+        <h1><span class="anne">Anne </span> in Development </h1>
         <div class="personal-info">
-            <p> Hi! I'm Joyce Anne P. Remo, currently taking Bachelor of Science in Information Technology at Polytechnic University of the Philippines - 
-                Sto.Tomas Batangas Campus. I'm passionate about UX/UI Design and love transforming ideas into simple, beautifiul, and user-freindly digital
-                experiences.I'm always eager to learn and grow while bringing fresh creativity to every project I work on.
-            </p>
-            <br>
-            <p> Based in Tanauan City, Batangas, I enjoy exploring the latest trends in technology and design to stay ahead in the ever-evolving digital world.
-                I thrive in collaborative environments where I can contribute innovative ideas while continuously improving my skills. 
-                My goal is to create impactful designs that not only look great but also provide seamless experiences for users.</p>
+            <p>Hi! I'm Joyce Anne P. Remo, currently taking Bachelor of Science in Information Technology at the
+                Polytechnic University of the Philippines - Sto. Tomas Batangas Campus. I'm passionate about UX/UI
+                Design and love transforming ideas into simple, beautiful, and user-friendly digital experiences. Based
+                in Tanauan City, Batangas, I enjoy exploring the latest trends in technology and design to stay ahead in
+                the ever-evolving digital world. I thrive in collaborative environments where I can contribute
+                innovative ideas while continuously improving my skills, with the goal of creating impactful designs
+                that not only look great but also provide seamless experiences for users.</p>
+
+            <p>A quick look at my strengths in development, design, and coding. I have a strong foundation in building
+                functional and
+                user-friendly applications, creating visually appealing and responsive designs, and writing clean,
+                efficient code.</p>
+
         </div>
-        <div class="skills">
-            <h2> Sharing my <span class="anne">Skills</span> </h2>
-            <p> In addition to design, I also have knowledge in several programming languages. </p>
-            <br>
-            <i class="devicon-c-plain colored"></i>
-            <i class="devicon-cplusplus-plain colored"></i>
-            <i class="devicon-python-plain colored"></i>
-            <i class="devicon-java-plain colored"></i>
-            <i class="devicon-javascript-plain colored"></i>
-            <i class="devicon-php-plain colored"></i>
+
+        <div class="skills reveal">
+            <div class="skills-cards">
+                <div class="skill-card">
+                    <h3> Developer</h3>
+                    <p>Experienced in creating responsive, user-focused web interfaces using modern front-end
+                        technologies.</p>
+                    <div class="icons">
+                        <i class="devicon-html5-plain colored"></i>
+                        <i class="devicon-css3-plain colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3></i> Design</h3>
+                    <p>Skilled in UX/UI design and visual creativity using tools like Figma, Photoshop, and Canva.</p>
+                    <div class="icons">
+                        <i class="devicon-figma-plain colored"></i>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-line.svg"
+                            alt="Photoshop" class="tool-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-line.svg"
+                            alt="Illustrator" class="tool-icon">
+                        <img src="assets/images/canva logo.png" alt="Canva" class="canva-icon">
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Coding</h3>
+                    <p>Knowledgeable in various programming languages for backend and logical problem-solving.</p>
+                    <div class="icons">
+                        <i class="devicon-cplusplus-plain colored"></i>
+                        <i class="devicon-java-plain colored"></i>
+                        <i class="devicon-python-plain colored"></i>
+                        <i class="devicon-php-plain colored"></i>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="projects" id="projects">
-        <div class="project-divider"></div>  
-        <h1> Works by <span class="anne">Anne </span> </h1>
-        <p> Here are some of my group projects that showcase my collaborative skills and technical experience.</p>
-        <table> 
-            <tr>
-                <th> Micecapades </th>
-                <th> Algorithms </th>
-                <th> AutoHub </th>
-                <th> SintaDrive </th>
-            </tr>
-            <tr>
-                <td><img src="assets/images/micecapades.png" alt="Micecapades" width="200"></td>
-                <td><img src="assets/images/algorithms.png" alt="Inventory Management System" width="200"></td>
-                <td><img src="assets/images/autohub.png" alt="AutoHub Garage" width="200"></td>
-                <td><img src="assets/images/sintadrive.png" alt="SintaDrive" width="200"></td>
-            </tr>
-            <tr>
-                <td> A fun and engaging game where Tom chases Jerry, and the player controls Jerry to navigate and finish a maze.</td>
-                <td> A system that allows users to calculate and execute different algorithms, providing efficient problem-solving tools for learning and practical application. </td>
-                <td> A system for buying different types of land vehicles. It serves as a digital showroom where users can browse vehicles, view details, and buy them.</td>
-                <td> A car-rental system with user and admin roles,  allow users to book cars and admin for managing the whole system.  </td>
-            </tr>
-        </table>
-    </div>
+<div class="projects" id="projects">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="desc-big">Works by <span class="anne">Anne</span></h1>
+                <p class="desc">From web design to graphic design and photo editing, my projects reflect a passion for
+                    creativity and visual storytelling. I love transforming concepts into engaging designs that combine
+                    functionality, artistry, and emotion.</p>
 
-    <div class="contacts" id="contacts">
-        <div class="contacts-divider"></div>
-        <h1> Get in Touch </h1>
-        <p class="introductory"> Let's connect and create something amazing together. </p>
-        <div class="social-icons">
-       <div class="social-icons">
-            <a href="https://www.facebook.com/sexyxd" ><i class="fa fa-facebook"></i></a>
-            <a href="https://www.instagram.com/y.ceanne/" ><i class="fa fa-instagram"></i></a>
-            <a href="https://github.com/joysicutes" ><i class="fa fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/joyce-anne-remo-67005b389/" ><i class="fa fa-linkedin"></i></a>
+                <div class="project-cards">
+                    <a href="websites.html" class="card-link reveal">
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <h2>Developments</h2>
+                                    <img src="assets/images/micecapades.png" alt="Websites Preview" class="card-image">
+                                    <p>Quick peek at my web projects — responsive and creative websites.</p>
+                                </div>
+                                <div class="card-back">
+                                    <h2>View Projects</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="design.html" class="card-link reveal">
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <h2>Creative Design</h2>
+                                    <img src="assets/images/Remo_Poster.jpg" alt="Design Preview" class="card-image">
+                                    <p>UX/UI designs, graphic compositions, and Photoshop edits.</p>
+                                </div>
+                                <div class="card-back">
+                                    <h2>View Projects</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="projects.html" class="card-link reveal">
+                        <div class="card">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <h2>Projects</h2>
+                                    <img src="assets/images/sintadrive.png" alt="More Developments" class="card-image">
+                                    <p>Web apps, graphics, and photo edits enhancing storytelling.</p>
+                                </div>
+                                <div class="card-back">
+                                    <h2>View Projects</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div> 
+        </div> 
+    </div> 
+</div> 
+
+
+    <section class="contacts" id="contacts">
+        <h1 class="contacts-title">Connect with <span class="anne">Anne</span></h1>
+        <p class="contacts-intro">Have a project in mind? I'd love to hear about it! I specialize in combining
+            development and
+            design to craft seamless, visually engaging digital experiences</p>
+        <div class="social-bubbles">
+            <a href="mailto:joyceanneremo05@gmail.com" class="social-bubble email" target="_blank">
+                <i class="fa fa-envelope"></i>
+                <span class="social-name">Email</span>
+            </a>
+            <a href="https://www.facebook.com/sexyxd" class="social-bubble facebook" target="_blank">
+                <i class="fa fa-facebook"></i>
+                <span class="social-name">Facebook</span>
+            </a>
+            <a href="https://www.instagram.com/y.ceanne/" class="social-bubble instagram" target="_blank">
+                <i class="fa fa-instagram"></i>
+                <span class="social-name">Instagram</span>
+            </a>
+            <a href="https://github.com/joysicutes" class="social-bubble github" target="_blank">
+                <i class="fa fa-github"></i>
+                <span class="social-name">GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/joyce-anne-remo-67005b389/" class="social-bubble linkedin"
+                target="_blank">
+                <i class="fa fa-linkedin"></i>
+                <span class="social-name">LinkedIn</span>
+            </a>
         </div>
 
-    </div>
+    </section>
 
     <footer class="footer">
-        <p> Joyce Anne Remo © BSIT 3-1
-            <br> All Rights Reserved </p>
-       <img src="assets/images/annedev.png">
+        <p>Joyce Anne Remo © BSIT 3-1<br>All Rights Reserved</p>
+        <img src="assets/images/annedev.png" alt="Anne Logo">
     </footer>
+
+
+
+    <script>
+        const words = ["Anne.", "a UI/UX Designer.", "a developer."];
+        let i = 0;
+        let j = 0;
+        let currentWord = "";
+        let isDeleting = false;
+        const speed = 100; // typing speed
+        const wait = 1500; // pause before deleting
+        const anneSpan = document.querySelector(".typewriter");
+
+        function typeEffect() {
+            currentWord = words[i];
+
+            if (!isDeleting) {
+                anneSpan.textContent = currentWord.substring(0, j + 1);
+                j++;
+
+                if (j === currentWord.length) {
+                    isDeleting = true;
+                    setTimeout(typeEffect, wait);
+                    return;
+                }
+            } else {
+                anneSpan.textContent = currentWord.substring(0, j - 1);
+                j--;
+
+                if (j === 0) {
+                    isDeleting = false;
+                    i = (i + 1) % words.length;
+                }
+            }
+
+            const typingSpeed = isDeleting ? speed / 2 : speed;
+            setTimeout(typeEffect, typingSpeed);
+        }
+
+        typeEffect();
+    </script>
+
+    <script>
+        const reveals = document.querySelectorAll('.reveal');
+
+        window.addEventListener('scroll', () => {
+            for (let i = 0; i < reveals.length; i++) {
+                const windowHeight = window.innerHeight;
+                const elementTop = reveals[i].getBoundingClientRect().top;
+                const elementVisible = 120;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add('active');
+                }
+            }
+        });
+    </script>
+
+    <script>
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('click', () => {
+                card.classList.toggle('flipped');
+            });
+        });
+    </script>
+
+
+
+
 
 </body>
 
-</html> 
+</html>
