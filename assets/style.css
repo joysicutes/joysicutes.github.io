@@ -77,10 +77,12 @@ body {
     width: auto;
     object-fit: contain;
     transition: transform 0.4s ease;
+    overflow: hidden;
+    display:inline-block;
 }
 
 .navbar-logo:hover {
-    transform: scale(1.1) rotate(5deg);
+    transform: scale(1) rotate(5deg);
 }
 
 .navs {
@@ -90,6 +92,7 @@ body {
     gap: 30px;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .navs a {
@@ -99,6 +102,7 @@ body {
     font-weight: 500;
     position: relative;
     transition: color 0.3s ease;
+    overflow: hidden;
 }
 
 .navs a::after {
@@ -110,6 +114,7 @@ body {
     height: 2px;
     background: linear-gradient(90deg, #ff5fb0, #ff94d7);
     transition: width 0.4s ease;
+    overflow: hidden;
 }
 
 .navs a:hover::after {
