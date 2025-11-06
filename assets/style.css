@@ -22,7 +22,7 @@ body {
   border: 1px solid rgba(215, 50, 168, 0.4);
   border-radius: 60px;
   box-shadow: 0 0 25px rgba(215, 50, 168, 0.35);
-  padding: 12px 40px;
+  padding: 16px 50px;
   z-index: 1000;
   width: 90%;
   max-width: 1200px;
@@ -50,7 +50,6 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  flex-wrap: wrap;
 }
 
 .logo-col {
@@ -66,7 +65,7 @@ body {
 }
 
 .navbar-logo {
-  height: 50px;
+  height: 55px;
   width: auto;
   object-fit: contain;
   transition: transform 0.4s ease;
@@ -80,13 +79,13 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 30px;
   margin: 0;
   padding: 0;
 }
 
 .navs a {
-  font-size: 18px;
+  font-size: 19px;
   text-decoration: none;
   color: #fff;
   font-weight: 500;
@@ -118,14 +117,54 @@ body {
   transition: box-shadow 0.4s ease;
 }
 
-/* ✅ RESPONSIVENESS - stay inline but shrink cleanly */
 @media (max-width: 992px) {
   .navbar {
-    padding: 10px 25px;
+    width: 92%;
+    padding: 14px 40px;
   }
 
   .navbar-logo {
-    height: 45px;
+    height: 50px;
+  }
+
+  .navs {
+    gap: 25px;
+  }
+
+  .navs a {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 95%;
+    padding: 16px 30px;
+    top: 15px;
+  }
+
+  .navbar-logo {
+    height: 50px;
+  }
+
+  .navs {
+    gap: 20px;
+  }
+
+  .navs a {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    width: 98%;
+    padding: 18px 25px;
+    top: 10px;
+  }
+
+  .navbar-logo {
+    height: 48px;
   }
 
   .navs {
@@ -133,45 +172,7 @@ body {
   }
 
   .navs a {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 768px) {
-  .navbar {
-    width: 95%;
-    padding: 8px 20px;
-  }
-
-  .navbar-logo {
-    height: 40px;
-  }
-
-  .navs {
-    gap: 14px;
-  }
-
-  .navs a {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 480px) {
-  .navbar {
-    width: 98%;
-    padding: 6px 15px;
-  }
-
-  .navbar-logo {
-    height: 35px;
-  }
-
-  .navs {
-    gap: 10px;
-  }
-
-  .navs a {
-    font-size: 14px;
+    font-size: 17px;
   }
 }
 
