@@ -159,7 +159,7 @@ body {
     }
 
     .navbar-logo {
-        height: 50px;
+        height: 40px;
     }
 
     .navs {
@@ -167,7 +167,7 @@ body {
     }
 
     .navs a {
-        font-size: 18px;
+        font-size: 14px;
     }
 }
 
@@ -179,15 +179,15 @@ body {
     }
 
     .navbar-logo {
-        height: 48px;
+        height: 17px;
     }
 
     .navs {
-        gap: 18px;
+        gap: 15px;
     }
 
     .navs a {
-        font-size: 17px;
+        font-size: 13px;
     }
 }
 
